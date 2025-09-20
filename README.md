@@ -1,69 +1,65 @@
-# React + TypeScript + Vite
+# SeaForge Website - Humber's Roboboat Team
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend website for Humber's Roboboat Team, SeaForge, built using React, TypeScript, and Vite. This project provides a modern, fast, and type-safe web application with Hot Module Replacement (HMR) and ESLint configured.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React + TypeScript for robust and scalable code
+- Powered by Vite for fast development build and reload times
+- ESLint configured with type-aware lint rules and React-specific plugins
+- Easy to extend and maintain for future enhancements
 
-## Expanding the ESLint configuration
+## Getting Started - Clone and Run Locally
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Follow these steps to get a local copy of the SeaForge website for development and testing:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Install [Node.js](https://nodejs.org/) (version 18 or higher recommended)
+- Have [Git](https://git-scm.com/) installed
+- A code editor like [Visual Studio Code](https://code.visualstudio.com/)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Clone the Repository
+
+Open your terminal and run:
+
+```bash
+git clone git@github.com:SeaForge/SeaForge-Website.git
+cd SeaForge-Website
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Install the required packages:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+pnpm install
 ```
+
+### Run the Development Server
+
+Start the local development server:
+
+```bash
+pnpm run dev
+```
+
+The site should now be running at http://localhost:5173
+
+## Contributing
+
+We welcome contributions! To contribute:
+
+1. Clone the repository on GitHub
+2. Create your feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a pull request for review
+
+Please follow coding standards and ensure ESLint and TypeScript checks pass.
+
+---
+
+## License
+
+This project is proprietary to Humber's Roboboat Team, SeaForge.
