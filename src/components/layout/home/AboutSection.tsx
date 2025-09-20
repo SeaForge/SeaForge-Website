@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Box,
   Container,
@@ -70,7 +69,8 @@ const AboutSection = () => {
     >
       <Container>
         <Grid container spacing={8} alignItems="center">
-          <Grid item xs={12} md={6}>
+          {/* Use a div with grid classes as a workaround */}
+          <div className="MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6">
             <Box sx={{ position: "relative", zIndex: 1 }}>
               <Typography
                 variant="h2"
@@ -188,9 +188,10 @@ const AboutSection = () => {
                 Explore Our Vessel
               </Button>
             </Box>
-          </Grid>
+          </div>
 
-          <Grid item xs={12} md={6}>
+          {/* Second grid item */}
+          <div className="MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6">
             <Box sx={{ position: "relative", zIndex: 1 }}>
               {/* Video/Media Section */}
               <Box
@@ -376,7 +377,7 @@ const AboutSection = () => {
                 ))}
               </Box>
             </Box>
-          </Grid>
+          </div>
         </Grid>
       </Container>
     </Box>

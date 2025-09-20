@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Container, Typography, Button, useTheme } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import HeroSection from "../components/layout/home/HeroSection";
