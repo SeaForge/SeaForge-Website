@@ -7,7 +7,7 @@ import ThemeProvider from "./providers/ThemeProvider";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/SeaForge-Website">
         <App />
       </BrowserRouter>
     </ThemeProvider>
