@@ -46,10 +46,6 @@ pnpm run dev
 
 The site should now be running at http://localhost:5173
 
-
-
----
-
 ## License
 
 This project is proprietary to Humber's Roboboat Team, SeaForge.
