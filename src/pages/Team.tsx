@@ -67,7 +67,7 @@ const Team = () => {
       members: [
         {
           id: 3,
-          name: "Pewdiepie",
+          name: "Lyman Combs",
           role: "Electrical Lead",
           image: "https://placehold.co/200x200/00435c/white/png?text=DK",
           bio: "Expert in power systems and circuit design for autonomous vehicles.",
@@ -80,7 +80,7 @@ const Team = () => {
         },
         {
           id: 4,
-          name: "Mike Tyson",
+          name: "Marcelino Gill",
           role: "Embedded Systems",
           image: "https://placehold.co/200x200/00435c/white/png?text=EW",
           bio: "Specializes in microcontroller programming and hardware integration.",
@@ -99,7 +99,7 @@ const Team = () => {
       members: [
         {
           id: 5,
-          name: "Mike Hawk",
+          name: "Anastasia Lam",
           role: "Software Lead",
           image: "https://placehold.co/200x200/00435c/white/png?text=AT",
           bio: "Leads the development of autonomy algorithms and navigation systems.",
@@ -112,7 +112,7 @@ const Team = () => {
         },
         {
           id: 6,
-          name: "Phil Myas",
+          name: "Felton Reed",
           role: "AI & Machine Learning",
           image: "https://placehold.co/200x200/00435c/white/png?text=PS",
           bio: "Develops machine learning models for object detection and path planning.",
@@ -131,7 +131,7 @@ const Team = () => {
       members: [
         {
           id: 7,
-          name: "Moe Lester",
+          name: "Tyron Bright",
           role: "Project Manager",
           image: "https://placehold.co/200x200/00435c/white/png?text=JM",
           bio: "Coordinates team efforts and manages project timelines and deliverables.",
@@ -144,7 +144,7 @@ const Team = () => {
         },
         {
           id: 8,
-          name: "Justin Heras",
+          name: "Numbers Ball",
           role: "Media & Outreach",
           image: "https://placehold.co/200x200/00435c/white/png?text=MB",
           bio: "Handles social media, sponsorships and public relations for the team.",
