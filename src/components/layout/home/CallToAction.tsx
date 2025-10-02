@@ -222,7 +222,7 @@ const CallToAction = () => {
           color="accent"
           size="large"
           component={RouterLink}
-          to="/contact"
+          to="/team"
           startIcon={<Rocket />}
           endIcon={<Groups />}
           sx={{
