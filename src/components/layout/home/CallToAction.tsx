@@ -231,7 +231,7 @@ const CallToAction = () => {
             fontSize: "1.2rem",
             fontWeight: 700,
             borderRadius: 3,
-            color: "primary.main",
+            // color: "primary.main",
             background: `linear-gradient(135deg, ${theme.palette.accent.main} 0%, ${theme.palette.accent.light} 100%)`,
             boxShadow: `0 8px 32px ${alpha(theme.palette.accent.main, 0.4)}`,
             animation: `${pulse} 2s infinite`,
